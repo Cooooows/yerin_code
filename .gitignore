@@ -1,2 +1,25 @@
 
 *.opendb
+yerin_code/.vs/yerin_code/v16/.suo
+*.db
+*.db-shm
+*.ipch
+*.obj
+*.db
+*.db-shm
+*.idb
+*.exe
+*.pdb
+*.recipe
+*.ilk
+*.log
+*.db
+*.db-shm
+*.tlog
+*.db
+*.db-shm
+yerin_code/Debug/yerin_code.vcxproj.FileListAbsolute.txt
+*.db
+*.db-shm
+*.vcxproj
+*.filters
