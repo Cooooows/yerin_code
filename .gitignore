@@ -23,3 +23,7 @@ yerin_code/Debug/yerin_code.vcxproj.FileListAbsolute.txt
 *.db-shm
 *.vcxproj
 *.filters
+yerin_code/.vs/yerin_code/v16/Browse.VC.db
+yerin_code/.vs/yerin_code/v16/Browse.VC.db-shm
+yerin_code/yerin_code.vcxproj
+yerin_code/yerin_code.vcxproj.filters
