@@ -20,13 +20,13 @@ int main()
 		{
 			int input = 0;
 			cin >> input;
-			if (input < min)
+			if (input < min)	//각 행에서 가장 작은 값 찾기
 			{
 				min = input;
 			}
 
 		}
-		if (min > max)
+		if (min > max)	//각 행에서 가장 작은 값끼리 비교해서 큰 값만 남기기
 		{
 			max = min;
 		}
