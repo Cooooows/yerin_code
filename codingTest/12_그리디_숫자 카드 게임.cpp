@@ -42,8 +42,9 @@ int main()
 	cin >> N;
 	cin >> M;
 
-	int** arr = new int* [N];
+	int** arr = new int* [N];	//2차원 배열 선언
 
+	//2차원 배열 초기화
 	for (int i = 0; i < N; ++i)
 	{
 		arr[i] = new int [M];
@@ -64,7 +65,7 @@ int main()
 	{
 		int min = 999;
 
-		for (int j = 0; j < M; j++)
+		for (int j = 0; j < M; j++)	//각 행에서 가장 작은 수 구하기
 		{
 			if (min > arr[i][j])
 			{
@@ -72,7 +73,7 @@ int main()
 			}
 		}
 
-		if (max < min)
+		if (max < min)	//가장 작은 애들끼리 비교하기
 		{
 			max = min;
 		}
@@ -80,7 +81,6 @@ int main()
 
 	cout << max << endl;
 
-	// 메모리 공간을 0으로 초기화 }
 	//메모리 해제 
 	for (int i = 0; i < N; ++i)
 	{
