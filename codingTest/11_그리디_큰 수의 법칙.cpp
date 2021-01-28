@@ -1,9 +1,12 @@
+//입력값 : N: 배열의 크기, M : 숫자가 더해지는 횟수, K : 반복 가능한 횟수
+//문제 : 같은 인덱스에 있는 숫자를 최대 K번 만큼 반복하여 더할 수 있을 때 배열의 값들을 N번 더했을 때 가장 큰 수 구하기
+
 #include <iostream>
 #include <algorithm>
 
 using namespace std;
 
-//뭔가 이상해
+
 int main()
 {
 	int N, M, K;	//N: 배열의 크기, M : 숫자가 더해지는 횟수, K : 반복 가능한 횟수
@@ -23,15 +26,15 @@ int main()
 	//sorting
 	sort(arr, arr + N);
 
-	int first = arr[N-1];
-	int second = arr[N-2];
+	int first = arr[N-1];	//배열에서 가장 큰 수
+	int second = arr[N-2];	//배열에서 가장 작은 수
 
 	int cnt = int(M / (K + 1)) * K;	//first가 반복해서 더해지는 횟수
 	cnt = cnt + (M % (K + 1));	//반복한 후에 나머지 더해지는 횟수
 
 	int res = 0;
 	res = cnt * first;
-	res = res + (M - cnt) * second;
+	res = res + (M - cnt) * second;	//first가 더해지는 수를 제외한 나머지 수는 2번째로 큰 수를 더한다.
 
 	cout << res << endl;
 
@@ -84,10 +87,10 @@ int main()
 
 	for (int i = 0; i < M; i++)
 	{
-		if (cnt == K)
+		if (cnt == K)	//가장 큰 수가 K번만큼 반복되었으면
 		{
 			cnt = 0;
-			res = res + next_max;
+			res = res + next_max;	//2번째로 큰 수 더하기
 			continue;
 		}
 		cnt++;
