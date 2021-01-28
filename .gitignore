@@ -4,3 +4,14 @@
 *.db-wal
 *.opendb
 *.sln
+codingTest/.vs/codingTest/v16/.suo
+*.ipch
+*.obj
+*.exe
+*.recipe
+*.ilk
+*.log
+*.pdb
+*.tlog
+codingTest/Debug/codingTest.vcxproj.FileListAbsolute.txt
+*.idb
