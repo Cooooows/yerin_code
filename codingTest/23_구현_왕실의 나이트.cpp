@@ -17,7 +17,8 @@ int main()
 	{
 		res = res-2;
 		if (c - 1 < '1')
-		{
+		{ 
+
 			res--;
 		}
 		if (c + 1 > '8')
@@ -40,4 +41,5 @@ int main()
 	
 	std::cout << res << endl;
 
+	return 0;
 }
