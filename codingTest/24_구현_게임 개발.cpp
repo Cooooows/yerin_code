@@ -71,10 +71,10 @@ int main()
 			//뒤로 이동
 			x = x - move_x[d];
 			y = y -  move_y[d];
+			turn = 0;
 		}
 
 	}
-
 
 	cout << cnt << endl;
 
