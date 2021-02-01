@@ -1,3 +1,14 @@
+/*
+4 4
+1 1 0
+1 1 1 1
+1 0 0 1
+1 1 0 1
+1 1 1 1
+
+cnt = 3
+*/
+
 #include <iostream>
 #include <vector>
 
@@ -67,5 +78,6 @@ int main()
 
 	cout << cnt << endl;
 
+	return 0;
 }
 
