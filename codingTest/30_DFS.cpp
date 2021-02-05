@@ -10,13 +10,12 @@ using namespace std;
 void doDFS(int start, vector<int> graph[], bool visited[]) {
 	
 	visited[start] = true;
-	printf("%d ", start);
+	cout << start;
 
 	for (int i = 0; i < graph[start].size(); i++) {
 		int next = graph[start][i];
 		// 방문하지 않았다면
 		if (visited[next] == false) {
-			// 재귀함수를 호출한다.
 			doDFS(next, graph, visited);
 		}
 	}
@@ -54,7 +53,6 @@ int main() {
 	}
 
 	doDFS(start, graph, visited);
-	printf("\n");
 
 	return 0;
 }
