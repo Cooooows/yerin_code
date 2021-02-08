@@ -8,7 +8,6 @@ int n = 0, m = 0;
 
 vector<vector<int>> maze;
 
-
 void doBFS()
 {
 	queue<pair<int,int>> que;
@@ -66,5 +65,6 @@ int main()
 	doBFS();
 
 	cout << maze[n-1][m-1] << endl;
+
 	return 0;
 }
