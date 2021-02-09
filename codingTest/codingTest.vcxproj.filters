@@ -51,10 +51,16 @@
     <ClCompile Include="50_이진탐색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="51_이진탐색_부품 찾기_배열.cpp">
+    <ClCompile Include="51_이진탐색_부품 찾기_BS.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="51_이진탐색_부품 찾기_BS.cpp">
+    <ClCompile Include="51_이진탐색_부품 찾기_순차탐색.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="51_이진탐색_부품찾기_백준.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="52_이진탐색_떡볶이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
