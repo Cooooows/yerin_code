@@ -63,5 +63,11 @@
     <ClCompile Include="52_이진탐색_떡볶이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="61_다이나믹_1로만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="52_이진탐색_떡볶이_반복.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
