@@ -69,7 +69,10 @@
     <ClCompile Include="52_이진탐색_떡볶이_반복.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="62_다이나믹_개미전사.cpp">
+    <ClCompile Include="62_다이나맥_개미전사_dp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="62_다이나믹_개미전사_탈락.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
