@@ -75,5 +75,14 @@
     <ClCompile Include="62_다이나믹_개미전사_탈락.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="63_다이나믹_바닥공사_탑다운.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="63_다이나믹_바닥공사_바텀업.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="64_다이나믹_화폐구성.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
