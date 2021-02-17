@@ -1,5 +1,6 @@
 //8
-//1 2 3 3 1 1 1 2 
+//1 1 3 3 2 1 1 2 
+//8
 
 #include <iostream>
 #include <vector>
@@ -9,11 +10,11 @@ using namespace std;
 int main()
 {
 	int n = 0;
-	vector<pair<int, int>> storage;
+	vector<pair<int, int>> storage;	//창고
 
 	cin >> n;
 
-	int* arr = new int[n]();
+	int* arr = new int[n]();	//창고를 털었는지 확인해주는 친구
 
 	int input;
 	for (int i = 0; i < n; i++)
