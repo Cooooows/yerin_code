@@ -15,8 +15,6 @@ void currencyComposition(int m)
 			money[j] = min(money[j], money[j - arr[i]] + 1);
 		}
 	}
-
-	
 }
 
 int main()
@@ -26,11 +24,11 @@ int main()
 	cin >> n >> m;
 	
 	arr = new int[n]();
-	money = new int[m+1];
+	money = new int[m+1]();
 
 	for (int i = 0; i < m + 1; i++)
 	{
-		money[i] = 1001;
+		money[i] = 10001;
 	}
 
 	for (int i = 0; i < n; i++)
@@ -39,10 +37,9 @@ int main()
 		money[arr[i]] = 1;
 	}
 
-
 	currencyComposition(m);
 
-	if (money[m] == 1001)
+	if (money[m] == 10001)
 	{
 		cout << -1;
 	}
