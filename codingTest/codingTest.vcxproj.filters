@@ -93,5 +93,14 @@
     <ClCompile Include="66_다이나믹_계단오르기2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="70_최단경로_다익스트라.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="70_최단경로_우선순위 큐.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="70_최단경로_프로이드 워셜.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
