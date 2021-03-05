@@ -1,12 +1,11 @@
 #include <iostream>
 #include <vector>
 
-#define INF 1e9 // 무한을 의미하는 값으로 10억을 설정
+#define INF 1e9 //1e9 = 무한
 
 using namespace std;
 
-// 노드의 개수(N), 간선의 개수(M), 시작 노드 번호(Start)
-// 노드의 개수는 최대 100,000개라고 가정
+// 노드의 개수(n, max : 100,000), 간선의 개수(m), 시작 노드 번호(start)
 int n, m, start;
 // 각 노드에 연결되어 있는 노드에 대한 정보를 담는 배열
 vector<pair<int, int> > graph[100001];
@@ -15,16 +14,17 @@ bool visited[100001];
 // 최단 거리 테이블 만들기
 int d[100001];
 
-// 방문하지 않은 노드 중에서, 가장 최단 거리가 짧은 노드의 번호를 반환
+// 방문하지 않았고, 최단 거리가 가장 짧은 노드의 번호를 반환
 int getSmallestNode() {
     int min_value = INF;
     int index = 0; // 가장 최단 거리가 짧은 노드(인덱스)
-    for (int i = 1; i <= n; i++) {
-        if (d[i] < min_value && !visited[i]) {
+    for (int i = 1; i <= n; i++) 
+    {
+        if (d[i] < min_value && !visited[i]) 
+        {
             min_value = d[i];
             index = i;
         }
-
     }
     return index;
 }
@@ -42,10 +42,12 @@ void dijkstra(int start) {
         int now = getSmallestNode();
         visited[now] = true;
         // 현재 노드와 연결된 다른 노드를 확인
-        for (int j = 0; j < graph[now].size(); j++) {
+        for (int j = 0; j < graph[now].size(); j++) 
+        {
             int cost = d[now] + graph[now][j].second;
             // 현재 노드를 거쳐서 다른 노드로 이동하는 거리가 더 짧은 경우
-            if (cost < d[graph[now][j].first]) {
+            if (cost < d[graph[now][j].first]) 
+            {
                 d[graph[now][j].first] = cost;
             }
         }
