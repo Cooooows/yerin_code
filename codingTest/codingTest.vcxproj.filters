@@ -108,5 +108,8 @@
     <ClCompile Include="72_최단경로_전보.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="72_최단경로_전보_우선순위큐.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
