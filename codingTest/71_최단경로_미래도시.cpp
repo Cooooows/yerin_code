@@ -27,7 +27,7 @@ int main()
 	for (int i = 0; i < m; i++)
 	{
 		cin >> start >> end;
-		graph[start][end] = 1;
+		graph[start][end] = 1;	//양방향 연결
 		graph[end][start] = 1;
 	}
 
