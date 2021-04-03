@@ -126,5 +126,8 @@
     <ClCompile Include="81_팀결성.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="82_도시 분할 계획.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
