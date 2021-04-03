@@ -111,5 +111,20 @@
     <ClCompile Include="72_최단경로_전보_우선순위큐.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="80_서로소 집합 자료구조.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="80_서로소 사이클 판별 기법.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="80_신장트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="80_위상 정렬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="81_팀결성.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
